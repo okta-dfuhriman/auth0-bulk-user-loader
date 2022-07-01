@@ -1,0 +1,14 @@
+{
+  "name": "bulk-users",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bulk-import-user",
+    "create": "node ./create-user"
+  },
+  "dependencies": {
+    "auth0": "^2.20.0",
+    "dotenv": "^8.2.0",
+    "faker": "^4.1.0"
+  }
+}
